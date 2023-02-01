@@ -12,11 +12,14 @@
 <body>
   <header>
     <div class="header-container">
-        <a href="#"><img src="image/logo.svg" alt="파란색로고" ></a>
-        
-        <ul class="nav"> 
+        <!-- div는 없어도 괜찮을것같아요 -->
+        <div class="discord-logo">
+            <!-- 대체텍스트 꼭 넣어주기! -->
+            <a href="#"><img src="image/logo.svg" alt="" ></a>
+        </div>
+        <ul class="nav">
             <li><a href="#">피드백</a></li>
-            <li><a href="#">한국어</a></li>
+            <li><a href="#" class="arrow">한국어</a></li>
             <li><a href="#">문의등록</a></li>
             <li><a href="#">로그인</a></li>
         </ul>
@@ -29,7 +32,10 @@
             고객 지원 센터
         </h1>
         <form>
-           <input type="search"  placeholder="검색">
+            <!-- 아이콘 -->
+            <!-- placeholder="검색" -->
+            <input type="search" >
+        </form>
     </div>
   </section> 
   <section class="help">
@@ -51,12 +57,14 @@
         <li><a href=""></a></li>
         <li><a href=""></a></li>
     </ul>
+    <!-- 제목이 빠졌어요 -->
     <ul class="list-more-two">
         <li><a href=""></a></li>
         <li><a href=""></a></li>
     </ul>
   </section>
   <footer>
+    <!-- 버튼보단 a로 써주는게 좋은 컨텐츠 -->
     <button></button>
     <div class="app">
 
@@ -65,25 +73,29 @@
         <div class="whitelogo">
 
         </div>
-        <ul class="list-four">
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-        <ul class="list-four">
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-        <ul class="list-four">
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-    </div>
-  </footer> 
+        <nav>
+
+            <ul class="list-four">
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+            <ul class="list-four">
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+            <ul class="list-four">
+                <li><a href=""></a></li>
+                <li><a href="#"></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+        </div>
+    </footer> 
+
 </body>
 </html>
