@@ -38,38 +38,86 @@ img{
     background-image: url("../image/chapter1.png") ;
     background-size: cover;
     background-position: center;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    padding: 0 16px;
+   
 }
 .center-point{
-    width:1000px;
-    margin: 0 auto;
-    color: white;
-    font-weight: bold;
+    max-width: 500px;
+    width:100%;
     box-sizing: border-box;
-    padding: 80px 0;
+    border: none; 
+    position: relative;
    
    
 }
 h1{
-    padding: 20px 0px 10px;
+    margin-bottom: 25px;
     font-size: 45px;
+    color: white;
+    font-weight: bold;
     
 }
-h1,form{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
+.center-point >figure{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-40%);
+    left: 8px;
+    
 }
-form > input{
+.search-input{
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    padding: 6px;
+    padding-left: 30px;
     border: none;
-    border-radius: 3px;
-    width: 650px;
-    height: 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #666;
+}
+   
+
+
+
+
+input:focus {
+        outline-color: aqua;
+        outline-style: solid;
+        outline-width: 1px;
+}
+.help {
+    padding: 0 32px;
+    padding-top: 100px;
+   
+}
+.help-you{
+    text-align: center;
+    color: #444;
 }
 h2{
-    font-size: 1px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* color: #444; */
 }   
-    
+.help-you p{
+   line-height:30px;
+   font-size: 20px;
+}   
+.noob-guide-link{
+    color: rgb(79, 79, 220);
+}
+.noob-guide-link:hover{
+    text-decoration: underline;
+}
