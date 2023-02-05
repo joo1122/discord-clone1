@@ -1,35 +1,30 @@
 *{
     text-decoration: none;
+    box-sizing: border-box;
 
 }
-/*  */
+
 header{
     width: 100%;
-    /* height:50px; */
-    /* background-color: aliceblue; */
-}
+}   
+   
 .header-container{
-    width:1180px;
+    width:80%;
     height:60px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content:space-between;
-    padding: 0 12px;
+    align-items: center;
 }
-img{
-    width:120px;
-    padding-top: 15px;
-    box-sizing: border-box;
-}
+
 .nav{
     display: flex;
-    padding: 18px;
+    margin:0 18px;
 }
 .nav > li > a{
     display: flex;
     font-size: 14px;
     color:rgb(24, 127, 237);
-    box-sizing: border-box;
     font-weight: bold;
     margin-left:50px;
 }
@@ -85,10 +80,6 @@ h1{
     color: #666;
 }
    
-
-
-
-
 input:focus {
         outline-color: aqua;
         outline-style: solid;
@@ -110,7 +101,10 @@ h2{
     font-weight: bold;
     margin-bottom: 20px;
     /* color: #444; */
-}   
+} 
+.help-you{
+    margin-bottom: 30px;
+} 
 .help-you p{
    line-height:30px;
    font-size: 20px;
@@ -121,3 +115,52 @@ h2{
 .noob-guide-link:hover{
     text-decoration: underline;
 }
+.list-ten{
+    padding: 0 32px;
+    margin-left: 100px;
+}
+.list-ten{
+    width: 100%;
+    height: auto;
+
+}
+.help-content{
+    width:18%;
+    height: 250px;
+    border: 1px solid #aaa ;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    /* padding: 15px; */
+    /* margin: 10px 12px; */
+    
+}
+
+.help-content p{
+    color: #7a7676;
+    line-height: 20px;
+}
+
+.list-ten .help-content a figure img{
+    width: 100px;
+    height:100px;
+}
+
+h3{
+    color: rgb(98, 98, 246) ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 16px;
+
+    
+}
+.help-content h3::after{
+    content: '';
+    width:50px;
+    height: 1.2px;
+    background-color: #e6e0e0;
+    display: block;
+    margin: 16px auto;
+    border-radius: 5px;
+}
+
